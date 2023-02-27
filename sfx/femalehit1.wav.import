@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/femalehit1.wav-e9655cb73b68a22baa3b254ecf867f8c.sample"
+
+[deps]
+
+source_file="res://sfx/femalehit1.wav"
+dest_files=[ "res://.import/femalehit1.wav-e9655cb73b68a22baa3b254ecf867f8c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

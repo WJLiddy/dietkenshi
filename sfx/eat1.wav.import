@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/eat1.wav-df27b6576dfa9220e390d3ba3ac53a37.sample"
+
+[deps]
+
+source_file="res://sfx/eat1.wav"
+dest_files=[ "res://.import/eat1.wav-df27b6576dfa9220e390d3ba3ac53a37.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://models/textures/coat_male_textures/coat_male.tres" type="Material" id=1]
+[ext_resource path="res://models/gltf/coat_male.glb" type="PackedScene" id=2]
+
+[node name="coat_male" instance=ExtResource( 2 )]
+
+[node name="long coat male" parent="game_rig/Skeleton" index="0"]
+material/0 = ExtResource( 1 )

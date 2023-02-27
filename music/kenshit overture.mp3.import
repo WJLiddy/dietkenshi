@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kenshit overture.mp3-ce53c2a88f614c0f741be6a01ed756f4.mp3str"
+
+[deps]
+
+source_file="res://music/kenshit overture.mp3"
+dest_files=[ "res://.import/kenshit overture.mp3-ce53c2a88f614c0f741be6a01ed756f4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

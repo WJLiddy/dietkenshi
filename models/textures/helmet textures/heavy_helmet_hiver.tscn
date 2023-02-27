@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://models/textures/helmet textures/heavy_helmet_textures_hiver/heltex.tres" type="Material" id=1]
+[ext_resource path="res://models/gltf/hiver_helmets/heavy_helmet.glb" type="PackedScene" id=2]
+
+[node name="heavy_helmet" instance=ExtResource( 2 )]
+
+[node name="helmet hiver" parent="." index="0"]
+material/0 = ExtResource( 1 )

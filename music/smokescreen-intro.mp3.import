@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/smokescreen-intro.mp3-32da9948272bfc11bf481d661c3a50b8.mp3str"
+
+[deps]
+
+source_file="res://music/smokescreen-intro.mp3"
+dest_files=[ "res://.import/smokescreen-intro.mp3-32da9948272bfc11bf481d661c3a50b8.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

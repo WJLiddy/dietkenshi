@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://models/textures/hiver1_textures/hiver_material.tres" type="Material" id=1]
+[ext_resource path="res://models/gltf/hivertorsoless.glb" type="PackedScene" id=2]
+
+[node name="hivertorsoless" instance=ExtResource( 2 )]
+
+[node name="mesh" parent="game_rig/Skeleton" index="0"]
+material/0 = ExtResource( 1 )

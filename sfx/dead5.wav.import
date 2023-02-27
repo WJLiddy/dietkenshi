@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/dead5.wav-605a0f83daa6ffd8e3dd16e6f6454a8c.sample"
+
+[deps]
+
+source_file="res://sfx/dead5.wav"
+dest_files=[ "res://.import/dead5.wav-605a0f83daa6ffd8e3dd16e6f6454a8c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/autosniper.wav-8298af1ae4b6c3f070c3e5d4f184f683.sample"
+
+[deps]
+
+source_file="res://sfx/autosniper.wav"
+dest_files=[ "res://.import/autosniper.wav-8298af1ae4b6c3f070c3e5d4f184f683.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

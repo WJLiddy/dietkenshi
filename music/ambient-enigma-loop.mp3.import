@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ambient-enigma-loop.mp3-8d9bd87833f49b10d917896def9c7504.mp3str"
+
+[deps]
+
+source_file="res://music/ambient-enigma-loop.mp3"
+dest_files=[ "res://.import/ambient-enigma-loop.mp3-8d9bd87833f49b10d917896def9c7504.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

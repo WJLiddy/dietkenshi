@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://models/gltf/coat_female.glb" type="PackedScene" id=1]
+
+[sub_resource type="SphereShape" id=1]
+
+[node name="coat_female" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 0.0988161, 0.995106, 0, -0.995106, 0.0988161, 0, 0, 0.750475 )
+
+[node name="game_rig" parent="." index="0"]
+transform = Transform( 0.7, 0, 0, 0, 0.7, 7.45058e-09, 0, -7.45058e-09, 0.7, 0, -0.664156, 0.0659521 )
+
+[node name="Area" type="Area" parent="." index="2"]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape" type="CollisionShape" parent="Area" index="0"]
+shape = SubResource( 1 )

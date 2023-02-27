@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/malehit7.wav-f4e2ba99e0bbc1b1df069b09b55ada3d.sample"
+
+[deps]
+
+source_file="res://sfx/malehit7.wav"
+dest_files=[ "res://.import/malehit7.wav-f4e2ba99e0bbc1b1df069b09b55ada3d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

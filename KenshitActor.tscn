@@ -1,0 +1,177 @@
+[gd_scene load_steps=37 format=2]
+
+[ext_resource path="res://scripts/KenshitHuman.gd" type="Script" id=1]
+[ext_resource path="res://ComicMono.tres" type="DynamicFont" id=2]
+[ext_resource path="res://models/godot/hiver.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/KenshitHumanMesh.gd" type="Script" id=4]
+[ext_resource path="res://models/godot/scorch_male.tscn" type="PackedScene" id=5]
+[ext_resource path="res://models/godot/greenlander_male.tscn" type="PackedScene" id=6]
+[ext_resource path="res://models/godot/greenlander_female.tscn" type="PackedScene" id=7]
+[ext_resource path="res://models/godot/shrek_male.tscn" type="PackedScene" id=8]
+[ext_resource path="res://models/godot/scorch_female.tscn" type="PackedScene" id=9]
+[ext_resource path="res://models/godot/skeleton.tscn" type="PackedScene" id=10]
+[ext_resource path="res://models/godot/shrek_female.tscn" type="PackedScene" id=11]
+[ext_resource path="res://misc/RoleShopkeep.tscn" type="PackedScene" id=12]
+[ext_resource path="res://misc/RoleHireable.tscn" type="PackedScene" id=13]
+[ext_resource path="res://sfx/femalehit1.wav" type="AudioStream" id=14]
+[ext_resource path="res://sfx/femalehit3.wav" type="AudioStream" id=15]
+[ext_resource path="res://sfx/femalehit2.wav" type="AudioStream" id=16]
+[ext_resource path="res://sfx/malehit6.wav" type="AudioStream" id=17]
+[ext_resource path="res://sfx/malehit1.wav" type="AudioStream" id=18]
+[ext_resource path="res://sfx/malehit3.wav" type="AudioStream" id=19]
+[ext_resource path="res://sfx/malehit4.wav" type="AudioStream" id=20]
+[ext_resource path="res://sfx/malehit2.wav" type="AudioStream" id=21]
+[ext_resource path="res://sfx/malehit5.wav" type="AudioStream" id=22]
+[ext_resource path="res://sfx/dead5.wav" type="AudioStream" id=23]
+[ext_resource path="res://sfx/dead2.wav" type="AudioStream" id=24]
+[ext_resource path="res://sfx/eat2.wav" type="AudioStream" id=25]
+[ext_resource path="res://sfx/drink2.wav" type="AudioStream" id=26]
+[ext_resource path="res://sfx/dead1.wav" type="AudioStream" id=27]
+[ext_resource path="res://sfx/eat1.wav" type="AudioStream" id=28]
+[ext_resource path="res://sfx/drink1.wav" type="AudioStream" id=29]
+[ext_resource path="res://sfx/dead6.wav" type="AudioStream" id=30]
+[ext_resource path="res://sfx/punch2.wav" type="AudioStream" id=31]
+[ext_resource path="res://sfx/punch1.wav" type="AudioStream" id=32]
+[ext_resource path="res://sfx/heal.wav" type="AudioStream" id=33]
+[ext_resource path="res://sfx/heal2.wav" type="AudioStream" id=34]
+[ext_resource path="res://misc/CamLookAt.gd" type="Script" id=35]
+[ext_resource path="res://sfx/buy5.wav" type="AudioStream" id=36]
+
+[node name="KenshitActor" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="RoleHireable" parent="." instance=ExtResource( 13 )]
+transform = Transform( 1, 0, 0, 0, -0.155624, -0.987816, 0, 0.987816, -0.155624, 0, 2.2459, 0 )
+visible = false
+script = ExtResource( 35 )
+
+[node name="nametag" type="Label" parent="."]
+margin_right = 40.0
+margin_bottom = 14.0
+custom_fonts/font = ExtResource( 2 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+text = "[GREEN]"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="uc_gf" parent="." instance=ExtResource( 7 )]
+script = ExtResource( 4 )
+
+[node name="skeleton" parent="." instance=ExtResource( 10 )]
+script = ExtResource( 4 )
+
+[node name="vaper_gm" parent="." instance=ExtResource( 5 )]
+script = ExtResource( 4 )
+
+[node name="vaper_gf" parent="." instance=ExtResource( 9 )]
+script = ExtResource( 4 )
+
+[node name="hive" parent="." instance=ExtResource( 3 )]
+script = ExtResource( 4 )
+
+[node name="uc_gm" parent="." instance=ExtResource( 6 )]
+script = ExtResource( 4 )
+
+[node name="shrek_gf" parent="." instance=ExtResource( 11 )]
+script = ExtResource( 4 )
+
+[node name="shrek_gm" parent="." instance=ExtResource( 8 )]
+script = ExtResource( 4 )
+
+[node name="RoleShopkeep" parent="." instance=ExtResource( 12 )]
+transform = Transform( 1, 0, 0, 0, 0.456725, -0.889608, 0, 0.889608, 0.456725, 0, 2.25903, 0 )
+visible = false
+script = ExtResource( 35 )
+
+[node name="Sounds" type="Spatial" parent="."]
+
+[node name="hurt1" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 18 )
+unit_db = 80.0
+
+[node name="hurt2" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 21 )
+unit_db = 80.0
+
+[node name="hurt3" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 19 )
+unit_db = 80.0
+
+[node name="hurt4" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 20 )
+unit_db = 5.571
+
+[node name="hurt5" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 22 )
+unit_db = 10.709
+
+[node name="hurt6" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 17 )
+unit_db = 6.299
+
+[node name="hurt1f" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 14 )
+unit_db = 36.536
+
+[node name="hurt2f" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 16 )
+unit_db = 29.858
+
+[node name="hurt3f" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 15 )
+unit_db = 35.591
+
+[node name="dead1" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 27 )
+unit_db = 10.107
+
+[node name="dead2" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 24 )
+unit_db = 8.757
+
+[node name="dead3" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 23 )
+unit_db = 10.079
+
+[node name="dead4" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 30 )
+unit_db = 12.913
+
+[node name="eat1" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 28 )
+unit_db = 17.953
+
+[node name="eat2" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 25 )
+unit_db = 13.544
+
+[node name="drink1" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 29 )
+unit_db = 11.339
+
+[node name="drink2" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 26 )
+unit_db = 8.503
+
+[node name="punch1" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 32 )
+unit_db = 14.87
+
+[node name="punch2" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 31 )
+unit_db = 11.968
+
+[node name="heal1" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 33 )
+unit_db = 10.88
+
+[node name="heal2" type="AudioStreamPlayer3D" parent="Sounds"]
+stream = ExtResource( 34 )
+unit_db = 11.024
+
+[node name="sell" type="AudioStreamPlayer" parent="Sounds"]
+stream = ExtResource( 36 )
+volume_db = -10.0

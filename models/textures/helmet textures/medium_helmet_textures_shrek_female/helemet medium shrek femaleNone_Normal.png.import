@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/helemet medium shrek femaleNone_Normal.png-4c205dc0be15f748c8284453d35d8792.s3tc.stex"
+path.etc2="res://.import/helemet medium shrek femaleNone_Normal.png-4c205dc0be15f748c8284453d35d8792.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://models/textures/helmet textures/medium_helmet_textures_shrek_female/helemet medium shrek femaleNone_Normal.png"
+dest_files=[ "res://.import/helemet medium shrek femaleNone_Normal.png-4c205dc0be15f748c8284453d35d8792.s3tc.stex", "res://.import/helemet medium shrek femaleNone_Normal.png-4c205dc0be15f748c8284453d35d8792.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=1
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0

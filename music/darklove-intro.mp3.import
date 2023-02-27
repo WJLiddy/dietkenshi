@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/darklove-intro.mp3-8ca4349814aa456f5d440711ce2c4fe2.mp3str"
+
+[deps]
+
+source_file="res://music/darklove-intro.mp3"
+dest_files=[ "res://.import/darklove-intro.mp3-8ca4349814aa456f5d440711ce2c4fe2.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

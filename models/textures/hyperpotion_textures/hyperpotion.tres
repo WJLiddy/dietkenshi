@@ -1,0 +1,8 @@
+[gd_resource type="SpatialMaterial" load_steps=3 format=2]
+
+[ext_resource path="res://models/textures/hyperpotion_textures/hyperpotion_None_BaseColor.png" type="Texture" id=1]
+[ext_resource path="res://models/textures/hyperpotion_textures/hyperpotion_None_Metalic.png" type="Texture" id=2]
+
+[resource]
+albedo_texture = ExtResource( 1 )
+metallic_texture = ExtResource( 2 )

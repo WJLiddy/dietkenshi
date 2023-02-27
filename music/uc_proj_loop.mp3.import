@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/uc_proj_loop.mp3-013d6f6ad4b47d28f9e1ce1747d425d3.mp3str"
+
+[deps]
+
+source_file="res://music/uc_proj_loop.mp3"
+dest_files=[ "res://.import/uc_proj_loop.mp3-013d6f6ad4b47d28f9e1ce1747d425d3.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

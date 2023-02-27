@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://models/textures/fan_textures/fan.tres" type="Material" id=1]
+[ext_resource path="res://models/gltf/fan.glb" type="PackedScene" id=2]
+[ext_resource path="res://misc/particles.tscn" type="PackedScene" id=3]
+[ext_resource path="res://sfx/fan.wav" type="AudioStream" id=4]
+
+[node name="fan" instance=ExtResource( 2 )]
+
+[node name="mesh" parent="." index="0"]
+material/0 = ExtResource( 1 )
+
+[node name="particles" parent="." index="1" instance=ExtResource( 3 )]
+
+[node name="fire" type="AudioStreamPlayer3D" parent="." index="2"]
+stream = ExtResource( 4 )
+unit_db = 14.496

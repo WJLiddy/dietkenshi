@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/coppershort sword.wav-fa7cf4b6c88c42027567e9b80e0d654a.sample"
+
+[deps]
+
+source_file="res://sfx/coppershort sword.wav"
+dest_files=[ "res://.import/coppershort sword.wav-fa7cf4b6c88c42027567e9b80e0d654a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

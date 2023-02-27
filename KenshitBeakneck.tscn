@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://models/gltf/beakneck.glb" type="PackedScene" id=1]
+[ext_resource path="res://models/textures/beakneck_textures/beakneck.tres" type="Material" id=2]
+[ext_resource path="res://scripts/KenshitUnit.gd" type="Script" id=3]
+
+[node name="beakneck" instance=ExtResource( 1 )]
+script = ExtResource( 3 )
+
+[node name="mesh" parent="game_rig/Skeleton" index="0"]
+material/0 = ExtResource( 2 )
+
+[node name="AnimationPlayer" parent="." index="1"]
+autoplay = "idle"

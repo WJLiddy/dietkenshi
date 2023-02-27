@@ -1,0 +1,10 @@
+[gd_resource type="SpatialMaterial" load_steps=4 format=2]
+
+[ext_resource path="res://models/textures/medkit_texture/medium_medkit_None_Roughness.png" type="Texture" id=1]
+[ext_resource path="res://models/textures/medkit_texture/medium_medkit_None_BaseColor.png" type="Texture" id=2]
+[ext_resource path="res://models/textures/medkit_texture/medium_medkit_None_Metalic.png" type="Texture" id=3]
+
+[resource]
+albedo_texture = ExtResource( 2 )
+metallic_texture = ExtResource( 3 )
+roughness_texture = ExtResource( 1 )

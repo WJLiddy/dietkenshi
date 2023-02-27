@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Charisma-intro.mp3-2e3925c9f9901bf9a1bd6cae6b959e3c.mp3str"
+
+[deps]
+
+source_file="res://music/Charisma-intro.mp3"
+dest_files=[ "res://.import/Charisma-intro.mp3-2e3925c9f9901bf9a1bd6cae6b959e3c.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

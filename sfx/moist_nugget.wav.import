@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/moist_nugget.wav-42e148c8416b376b0ea7f19954bf755a.sample"
+
+[deps]
+
+source_file="res://sfx/moist_nugget.wav"
+dest_files=[ "res://.import/moist_nugget.wav-42e148c8416b376b0ea7f19954bf755a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

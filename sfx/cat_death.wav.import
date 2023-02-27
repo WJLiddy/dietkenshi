@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/cat_death.wav-34b3e355ec6f2de25aba03653e23468c.sample"
+
+[deps]
+
+source_file="res://sfx/cat_death.wav"
+dest_files=[ "res://.import/cat_death.wav-34b3e355ec6f2de25aba03653e23468c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

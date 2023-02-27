@@ -1,0 +1,36 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path.s3tc="res://.import/long coat_None_BaseColor.png-22c055e1e3cf51d118c3b5a3d80c7c21.s3tc.stex"
+path.etc2="res://.import/long coat_None_BaseColor.png-22c055e1e3cf51d118c3b5a3d80c7c21.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
+
+[deps]
+
+source_file="res://models/textures/coat_male_textures/long coat_None_BaseColor.png"
+dest_files=[ "res://.import/long coat_None_BaseColor.png-22c055e1e3cf51d118c3b5a3d80c7c21.s3tc.stex", "res://.import/long coat_None_BaseColor.png-22c055e1e3cf51d118c3b5a3d80c7c21.etc2.stex" ]
+
+[params]
+
+compress/mode=2
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=true
+flags/filter=true
+flags/mipmaps=true
+flags/anisotropic=false
+flags/srgb=1
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
