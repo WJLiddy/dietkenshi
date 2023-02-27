@@ -2,9 +2,11 @@
 
 GAME FOR VPSQ 3's SECRET CHALLENGE
 
-stop signs
-weeb swords
-bigass swords
+PROBLEMS THAT YOU!!!!!!! CAN FIX
+- make it work with GLES2
+- make a web build
+- make loading times better
+- make time travel better
 
 
 FACTIONS:
